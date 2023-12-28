@@ -14,6 +14,7 @@ namespace lab7
         static void Main(string[] args)
         {
             Console.WriteLine(findDistanceBetweenPoints(0, 0, 0, 1)); // 1
+            dont compile!!
         }
     }
 }
