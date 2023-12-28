@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace lab7
 { 
-    internal class Program
+    public class Program
     {
-        static double findDistanceBetweenPoints(double x1, double y1, double x2, double y2) => Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+        public static double findDistanceBetweenPoints(double x1, double y1, double x2, double y2) => Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
 
         static void Main(string[] args)
         {
             Console.WriteLine(findDistanceBetweenPoints(0, 0, 0, 1)); // 1
-            dont compile!!
+            //dont compile!!
         }
     }
 }
